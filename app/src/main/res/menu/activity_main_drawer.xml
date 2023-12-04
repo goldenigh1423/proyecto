@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inventario"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inventario" />
+        <item
+            android:id="@+id/nav_facturacion"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Facturacion" />
+        <item
+            android:id="@+id/nav_empleados"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Empleados" />
+        <item
+            android:id="@+id/nav_ventas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ventas" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="LogOut" />
+    </group>
+</menu>
